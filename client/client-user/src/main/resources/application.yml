@@ -1,0 +1,10 @@
+server:
+  port: 23101
+spring:
+  application:
+    name: client-user
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql:3306/dooz-client_user?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root

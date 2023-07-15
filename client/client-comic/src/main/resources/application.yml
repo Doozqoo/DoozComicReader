@@ -1,0 +1,10 @@
+server:
+  port: 23201
+spring:
+  application:
+    name: client-comic
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dooz-client_comic?characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
