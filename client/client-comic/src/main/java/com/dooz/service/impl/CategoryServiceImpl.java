@@ -8,7 +8,6 @@ import com.dooz.mapper.CategoryMapper;
 import com.dooz.service.CategoryService;
 import com.dooz.utils.BeanCopyUtil;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
